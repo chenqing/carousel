@@ -3,7 +3,6 @@
   margin: 0;
     padding: 0;
     font-size: 12px ;
-    border: 0;
 }
 
 body {
@@ -15,19 +14,18 @@ body {
     height: 280px;
     overflow: hidden;
     margin: 0 auto;
-    width: 520px;
 
 
 }
 
 #list {
-
+  _display: none;
+    width: 1560px;
 }
 
 ul {
     position: absolute;
     overflow: hidden;
-    z-index: 0;
 }
 
 ul li  {
@@ -39,39 +37,25 @@ ul li img {
     width: 520px;
 }
 
-#next,#pre {
-    font-size: 25px;
-
-}
 .pre {
     position: absolute;
     background: #000;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
+    opacity: 0.3;
     left: 0;
     top: 45%;
     padding: 5px;
     color: white;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
     cursor: pointer;
-    text-align: center;
 
 }
 
 .next {
     position: absolute;
     background: #000;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
+    opacity: 0.3;
     right: 0;
     top: 45%;
-    padding: 5px  ;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-size: 25px;
+    padding: 5px;
     color: white;
     cursor: pointer;
 
@@ -84,20 +68,20 @@ ul li img {
 
 #imgList {
     position: absolute;
+
     top : 80% ;
     right: 5%;
     padding: 10px;
 }
 
 #imgList span {
-    padding: 2px 5px ;
+    padding: 5px ;
     color: #ffffff;
     background: red;
     margin: 0 2px;
     width: 20px;
     height: 20px;
-    border-radius:10%;
-    line-height: 20px; text-align: center; font-size: 14px;  background-color: RGBA(0,0,0,.3); color: #fff;
+    border-radius: 50%;
 }
 
 

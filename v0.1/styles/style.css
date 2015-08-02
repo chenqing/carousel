@@ -1,0 +1,27 @@
+
+* {
+  margin: 0;
+    padding: 0;
+}
+#wrapper {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+ul {
+    position: absolute;
+    height: 400px;
+    overflow: hidden;
+}
+
+ul li  {
+    float: left;
+    width: 600px;
+}
+
+ul li img {
+    width: 600px;
+}
