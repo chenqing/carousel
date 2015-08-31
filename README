@@ -1,23 +1,4 @@
-# 轮播图实现
+#  一个taobao首页的轮播图实现
 
-首先在大脑里面自己回想了一下轮播图的实现，没有去网上找原理，在我的理解轮播图或者动画（二维）就是基于横坐标为时间，
-纵坐标为位移的函数。
-努力回想了下在前端动画的实现方式:
-* 基于js setTimeOut 的常规动画实现
-* 基于CSS3 的transition 
+http://www.chenqing.org/Carousel
 
-对于轮播图，自己YY的定义就是有一组图片，在一定的时间间隔自动或者手动可以改变其位置，从而达到切换的目的。
-
-## 所需预备知识
-
-### css
-
-* 定位position 
-* backgroud
-* box model 
-* transition （optional）
-### js
-
-* dom 操作知识
-* event （考虑兼容IE）
-* setTimeout
